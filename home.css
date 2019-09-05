@@ -1,0 +1,34 @@
+*{
+    margin: 0px
+}
+nav{
+    background-color: #7D0093;
+    background-image: linear-gradient(180deg,#7D0093,#7D0093,black);
+    color: white;
+    display: flex;
+ }
+ nav ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+   
+ }
+ nav ul img{
+     padding-left: 3em;
+ }
+
+  
+  nav ul:first-child{
+    font-size: 8em;
+    
+   
+  }
+  body{
+      background-color: #FFC600
+  }
+nav ul #chato{
+    display: flex;
+    margin-left: auto;
+    font-size: 0.30em;
+   align-self: flex-end;
+}
