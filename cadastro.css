@@ -11,9 +11,11 @@ nav{
  display: flex;
  list-style-type: none;
  align-items: center;
+ width: 100%;
+ justify-content: space-between;
  }
  nav ul img{
-     padding-left: 3.5em;
+     padding-left: -4em;
  }
   nav ul:first-child{
       font-size: 5em;
@@ -85,4 +87,13 @@ form input[type="submit"]:hover {
 }
 .amem{
     
+}
+a{
+    font-size: 20px;
+    color: black;
+    border: 3px solid black;
+    background-color: aliceblue;
+    display: flex;
+   float: right;
+   justify-content: flex-end;
 }

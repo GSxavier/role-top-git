@@ -22,6 +22,7 @@ flex-direction: row;
  justify-items: center;
  margin-top: 1px;
 justify-content: center;
+
 }
  nav ul> li{
     
@@ -38,4 +39,32 @@ justify-content: center;
   nav ul a{
      text-decoration: none;
  }
- 
+@media(min-width:1000px){
+  #bt-mobile-menu{
+   display: none;
+  }
+}
+ @media(max-width:1000px){
+
+
+
+ nav #bt-mobile-menu {
+    display: none;
+}
+nav #bt-mobile-menu {
+    display: block;
+}
+
+nav .bt-common-menu {
+    display: none;
+}
+
+nav .bt-common-menu.active {
+    display: block;
+}
+
+nav ul.mobile-mode {
+    display: flex;
+    flex-direction: column;
+}
+}
